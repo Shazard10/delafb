@@ -141,7 +141,7 @@ async def start(client, message):
                     chat_id=message.from_user.id,
                     file_id=msg.get("file_id"),
                     caption=f_caption,
-                    reply_markup=InlineKeyboardMarkup( [ [InlineKeyboardButton("㊗️  𝙐𝙋𝙇𝙊𝘼𝘿𝙀𝙍  ㊗️", url="https://t.me/M4MHD") ] ] ),
+                    reply_markup=InlineKeyboardMarkup( [ [InlineKeyboardButton("㊗️  𝙐𝙋𝙇𝙊𝘼𝘿𝙀𝙍  ㊗️", url="https://t.me/sk_movies12") ] ] ),
                     protect_content=msg.get('protect', False),
                     )
             except FloodWait as e:
@@ -245,7 +245,7 @@ async def start(client, message):
         chat_id=message.from_user.id,
         file_id=file_id,
         caption=f_caption,
-        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton("㊗️  𝙐𝙋𝙇𝙊𝘼𝘿𝙀𝙍  ㊗️", url="https://t.me/new_movies_group_2021),
+        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton("㊗️  𝙐𝙋𝙇𝙊𝘼𝘿𝙀𝙍  ㊗️", url="https://t.me/new_movies_group_2021"),
                                                InlineKeyboardButton("💥ꜱʜᴀʀᴇ💥", url="https://t.me/share/url?url=https://t.me/new_movies_group_2021") ],
                                              [ InlineKeyboardButton("🔖ɴᴇᴡ ᴍᴏᴠɪᴇs ʟɪɴᴋs🔖", url="https://t.me/sk_movies12") ] ] ),
         protect_content=True if pre == 'filep' else False,
