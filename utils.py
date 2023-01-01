@@ -165,7 +165,7 @@ async def search_gagala(text):
     response.raise_for_status()
     soup = BeautifulSoup(response.text, 'html.parser')
     titles = soup.find_all( 'h3' )
-    return [title.getText() for title in titles]
+    return [title.getText() for title in titles
 
 
 async def get_settings(group_id):
