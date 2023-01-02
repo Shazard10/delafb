@@ -64,6 +64,11 @@ async def get_poster(query, bulk=False, id=False, file=None):
             title = (query.replace(year, "")).strip()
         elif file is not None:
             year = re.findall(r'[1-2]\d{3}', file, re.IGNORECASE)
+        if year:
+            year = list_to_str(year[:1])
+            title = (query.replace(year, "")).strip()
+        elif file is not None:
+            year = re.findall(r'[1-2]\d{3}', file, re.IGNORECASE)
             if year:
                 year = list_to_str(year[:1]) 
         else:
