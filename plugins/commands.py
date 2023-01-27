@@ -244,7 +244,7 @@ async def start(client, message):
     await client.send_cached_media(
         chat_id=message.from_user.id,
         file_id=file_id,
-        caption=f_caption,
+        caption=f'<code>{title}</code>\n\n<b>✯കൂടുതൽ മൂവീസുകൾക്കായി താഴെ കാണുന്ന ഗ്രൂപ്പിൽ ജോയിൻ  ആയി ചോദിക്കാവുന്നതാണ്✍︎\n\n         ☟︎︎︎𝗚𝗥𝗢𝗨𝗣 𝗟𝗜𝗡𝗞 ☟︎︎︎\n https://t.me/+ipuYNipHQE03NmU1 \n https://t.me/+ipuYNipHQE03NmU1 \n\n    ✰Jᴏɪɴ✪Sʜᴀʀᴇ⍟Sᴜᴘᴘᴏʀᴛ★</b>',
         reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton("㊗️  𝙐𝙋𝙇𝙊𝘼𝘿𝙀𝙍  ㊗️", url="https://t.me/new_movies_group_2021"),
                                                InlineKeyboardButton("💥ꜱʜᴀʀᴇ💥", url="https://t.me/share/url?url=https://t.me/new_movies_group_2021") ],
                                              [ InlineKeyboardButton("🔖ɴᴇᴡ ᴍᴏᴠɪᴇs ʟɪɴᴋs🔖", url="https://t.me/sk_movies12") ] ] ),
